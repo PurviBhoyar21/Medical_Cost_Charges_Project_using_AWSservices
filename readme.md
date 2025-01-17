@@ -1,24 +1,23 @@
-Cloud-Based Medical Dataset Analysis Project
+## Cloud-Based Medical Dataset Analysis Project
 
-Overview
-
+Overview:
 This project leverages a cloud-based approach to analyze medical datasets with distributed computing and visualization techniques. It will process big data and extract meaningful information; based on that, create some visualizations that could make it easier to understand. Key AWS services used include EMR, Glue, S3, QuickSight, VPC, and EC2.
 
-Features
+Features:
 
-Distributed data processing is done using PySpark on AWS EMR.
+1. Distributed data processing is done using PySpark on AWS EMR.
 
-Manifests are generated automatically to ease integration with AWS QuickSight.
+2. Manifests are generated automatically to ease integration with AWS QuickSight.
 
-Scalable and reliable storage of datasets and outputs in AWS S3. 
+3. Scalable and reliable storage of datasets and outputs in AWS S3. 
 
-Creation of interactive dashboards and visualizations in AWS QuickSight. 
+4. Creation of interactive dashboards and visualizations in AWS QuickSight. 
 
-Securing infrastructure via AWS VPC and EC2. 
+5. Securing infrastructure via AWS VPC and EC2. 
 
-AWS Glue: to validate and test. 
+6. AWS Glue: to validate and test. 
 
-Steps to Execute the Project
+Steps to Execute the Project:
 
 1. Setup Environment
 
@@ -55,6 +54,7 @@ Manifest files are uploaded to s3://medicalcharges/MedicalCharges/Manifest_data/
 Validate Manifest file
 
 This step checks that the manifest files correctly link to output CSVs.
+
 4. Visualization in QuickSight
 
 Connect datasets
@@ -63,23 +63,13 @@ Create, in QuickSight, new datasets using the manifest files from the Manifest_d
 
 Create Dashboards:
 
-Using the imported datasets, create visualizations such as:
+Using the imported datasets, create visualizations such as: Bar charts for regional charge comparisons. Pie charts for BMI category distributions. Line charts for age-based trends.
 
-Bar charts for regional charge comparisons.
-
-Pie charts for BMI category distributions.
-
-Line charts for age-based trends.
-
-Publish and Share:
-
-Save dashboards and share them with stakeholders.
+Publish and Share: Save dashboards and share them with stakeholders.
 
 5. Validation and Testing
 
-AWS Glue:
-
-Use AWS Glue to test the PySpark script and validate outputs.
+AWS Glue: Use AWS Glue to test the PySpark script and validate outputs.
 
 Verify Outputs:
 
@@ -89,47 +79,34 @@ Validate QuickSight visualizations against expectations.
 
 Project Workflow
 
-Input Data: S3-hosted medical dataset.
+1. Input Data: S3-hosted medical dataset.
 
-Processing: PySpark on EMR.
+2. Processing: PySpark on EMR.
 
-Storage: Outputs and manifests in S3.
+3. Storage: Outputs and manifests in S3.
 
-Visualization: Dashboards in QuickSight.
+4. Visualization: Dashboards in QuickSight.
 
-Validation: Glue testing script.
+5. Validation: Glue testing script.
 
-Dependencies
-
+Dependencies:
 PySpark
-
 AWS CLI
-
 Boto3
 
 AWS Services: EMR, S3, QuickSight, Glue, VPC, EC2
 
-Conclusion
-
+Conclusion:
 This project showcases how to use AWS cloud services for effective analysis and visualization of a medical dataset. The application of distributed computing and the use of interactive dashboards provide scalable and actionable insights into healthcare data.
 
-References
-
-AWS Documentation:
-
-Amazon EMR
-
-Amazon S3
-
-Amazon Glue
-
-Amazon QuickSight
-
-PySpark Documentation:
-
-PySpark
-
-Dataset Source:
-
-Medical Dataset
+References:
+1. AWS Documentation
+2. Amazon EMR
+3. Amazon S3
+4. Amazon Glue
+5. Amazon QuickSight
+6. PySpark Documentation:
+7. PySpark
+8. Dataset Source:
+9. Medical Dataset - https://www.kaggle.com/code/mragpavank/medical-cost-personal-datasets/notebook 
 

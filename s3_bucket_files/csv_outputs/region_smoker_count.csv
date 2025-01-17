@@ -1,0 +1,9 @@
+region,smoker,count
+northwest,no,267
+northeast,no,257
+northeast,yes,67
+northwest,yes,58
+southeast,no,273
+southeast,yes,91
+southwest,no,267
+southwest,yes,58

@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://medicalcharges/MedicalCharges/Output_data/age_range_analysis/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textQualifier": "\"",
+        "containsHeader": true
+    }
+}

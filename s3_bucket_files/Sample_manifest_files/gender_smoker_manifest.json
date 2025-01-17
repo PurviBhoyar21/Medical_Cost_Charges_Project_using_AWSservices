@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://medicalcharges/MedicalCharges/Output_data/gender_smoker_analysis/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textQualifier": "\"",
+        "containsHeader": true
+    }
+}

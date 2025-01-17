@@ -1,0 +1,15 @@
+{
+    "fileLocations": [
+        {
+            "URIs": [
+                "s3://medicalcharges/MedicalCharges/Output_data/region_stats/"
+            ]
+        }
+    ],
+    "globalUploadSettings": {
+        "format": "CSV",
+        "delimiter": ",",
+        "textQualifier": "\"",
+        "containsHeader": true
+    }
+}
